@@ -25,7 +25,6 @@ function Modal(props) {
             portalElement
         )}
     </Fragment>
-
   )
 }
 
