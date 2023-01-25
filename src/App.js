@@ -18,12 +18,13 @@ function App() {
 
 
   return (
-    <Fragment>
+    <CartProvider>
      {isCartShown && <Cart onClose={hideCartHandler}/>}
 <Header onClick={showCartHandler}/>
+<main>
 <Meals />
-
-    </Fragment>
+</main>
+    </CartProvider>
   )
 }
 
